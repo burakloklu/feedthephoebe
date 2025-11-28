@@ -39,11 +39,11 @@ export default function App() {
           </h1>
 
           <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-            A tiny love project where I share all the meals I cook for Phoebe
+            A tiny love project where I share the meals I cook as her overly committed amateur chef for Phoebe.
           </p>
 
-          <p className="text-gray-600 leading-relaxed mb-6 mt-[-2px] text-sm sm:text-base">
-            — the girl whose smile makes everything I cook taste better.
+          <p className="text-gray-600 leading-relaxed mb-6 mt-[-1px] text-sm sm:text-base">
+            — the girl whose smile makes everything I cook taste better
           </p>
 
           <form

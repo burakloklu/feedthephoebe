@@ -29,7 +29,7 @@ export default function App() {
 
       {/* main content */}
       <div className="flex flex-col relative items-center gap-6 sm:gap-8 z-10 w-full">
-        <div className="bg-white/80 backdrop-blur-xl border border-pink-200 rounded-3xl shadow-xl w-full max-w-md sm:max-w-xl py-8 sm:py-10 px-4 sm:px-8">
+        <div className="bg-white/80 backdrop-blur-xl border border-pink-200 rounded-3xl shadow-xl w-full max-w-md sm:max-w-xl py-8 sm:py-10 px-1 sm:px-8">
           <p className="uppercase tracking-wide text-pink-500 font-semibold text-sm mb-2">
             coming soon
           </p>
@@ -47,7 +47,7 @@ export default function App() {
           </p>
 
           <form
-            className="flex flex-row gap-3 justify-center"
+            className="flex flex-row gap-3 justify-center px-4"
             onSubmit={(e) => {
               e.preventDefault();
               alert("One day this will notify you. For now—thank you 💗");

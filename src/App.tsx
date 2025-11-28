@@ -76,7 +76,7 @@ export default function App() {
         />
       </div>
 
-      <footer className="absolute bottom-4 text-sm text-pink-600">
+      <footer className="absolute bottom-8 text-sm text-pink-600">
         Made with 💗 for Phoebe · {new Date().getFullYear()}
       </footer>
     </div>
